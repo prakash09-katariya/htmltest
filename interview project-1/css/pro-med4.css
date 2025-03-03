@@ -1,0 +1,48 @@
+@media (max-width:1400px) {
+    .w-1140{
+        width: 1140px;
+    }
+}
+
+@media (max-width:1200px) {
+    .w-1140{
+        width: 960px;
+    }
+}
+
+@media (max-width:992px) {
+    .w-1140{
+        width: 720px;
+    }
+} 
+
+@media (max-width:768px) {
+    .w-1140{
+        width: 540px;
+    }
+}
+
+@media (max-width:576px) {
+    .w-1140{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .header-section .nav-menu .wrapper .logo {
+        width: 27%;
+    }
+    .header-section .nav-menu .wrapper .navigation-menu .nav-list {
+        display: none;
+    }
+    .hero-section .main h1 {
+        margin-top: 3px;
+        margin-bottom: 15px;
+        font-size: 40px;
+        line-height: 56px;
+    }
+    .hero-section .main .input-row .w-80 .input-select #opt {
+        font-size: 12px;
+    }
+    .country-section {
+        padding: 60px 0;
+    }
+}

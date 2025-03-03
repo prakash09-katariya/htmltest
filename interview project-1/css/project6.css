@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.w-100{
+    width: 100%;
+}
+.w-1140{
+    width: 1140px;
+    margin: auto;
+}
+
+.wrapper-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.wrapper-nav .logo {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    width:25%
+}
+.wrapper-nav .logo p{
+    width: 5%;
+}
+.wrapper-nav .logo h1{
+    width: 10%;
+}
+.wrapper-nav .logo h1 img{
+    width: 100%;
+}

@@ -1,0 +1,1244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.w-100{
+    width: 100%;
+}
+.w-1140{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* ......................................nav-menu-start.............................. */
+.header-section  {
+    position: absolute;
+    z-index: 1;
+    top: 5%;
+    width: 100%;
+}
+.header-section .nav-menu .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 0;
+    border-bottom:1px solid rgba(0, 0, 0, 0.5);
+}
+
+
+.header-section .nav-menu .wrapper .logo{
+    width: 10%;
+    
+}
+.header-section .nav-menu .wrapper .logo img{
+    width: 100%;
+    object-fit: cover;
+    z-index: 1;;
+}
+
+.header-section .nav-menu .wrapper .navigation-menu .nav-list{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    
+}
+.header-section .nav-menu .wrapper .navigation-menu .nav-list .nav-item{
+    position: relative;
+}
+.header-section .nav-menu .wrapper .navigation-menu .nav-list .nav-item .nav-link{
+    font-family: "Roboto", serif;
+    font-size: 14px;
+    line-height: 30.4px;
+    font-weight: 400;
+    margin: 0 16px;
+    display: block;
+    color: #1A1A1A;
+   
+}
+.header-section .nav-menu .wrapper .navigation-menu .nav-list .nav-item .nav-link::after{
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    height: 3px;
+    width: 100%;
+    background-color: #0c0c0c;
+    border-radius: 50px;
+    transform: scalex(0);
+    transition: 0.2s linear;
+}
+.header-section .nav-menu .wrapper .navigation-menu .nav-list .nav-item .nav-link:hover.nav-link::after{
+    transform: scalex(1);
+}
+
+.header-section .nav-menu .wrapper .navigation-menu .nav-list .nav-item .nav-link:hover{
+    color: blueviolet;
+}
+
+.header-section .nav-menu .wrapper .nav-icone .nav-icone-list{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+.header-section .nav-menu .wrapper .nav-icone .nav-icone-list .nav-item .nav-link{
+    font-family: "Roboto", serif;
+    font-size: 14px;
+    line-height: 19.2px;
+    font-weight: 500;
+    display: block;
+    color: #1A1A1A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-section .nav-menu .wrapper .nav-icone .nav-icone-list .nav-item .nav-link-svg{
+    font-size: 25px;
+    color: #1A1A1A;
+}
+.header-section .nav-menu .wrapper .nav-icone .nav-icone-list button{
+    line-height: 28.5px;
+    font-size: 14px;
+    font-family: "Roboto", serif;
+    display: block;
+    padding: 6px 26px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #1A1A1A;
+    
+    
+
+}
+.header-section .nav-menu .wrapper .nav-icone .nav-icone-list button:hover{
+    background-color: #03045e;
+    box-shadow: 0 0  5px black;
+    color: white;
+}
+
+/* ......................................nav-menu-end.............................. */
+
+/* ........................................hero-section-start.......................... */
+.hero-section{
+   background-image: url(../img/pro-1/bg-4.jpg);
+   width: 100%;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   text-align: center;
+   padding: 43px 0 125px;
+   position: relative;
+  
+}
+
+.hero-section h3{
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Roboto", serif;
+    line-height: 38px;
+    border: 1px solid rgb(0, 0, 0);
+    display: inline;
+    border-radius: 40px;
+    padding: 10px 15px;
+    margin-top: 43px;
+}
+.hero-section .main{
+    padding-top:155px;
+}
+.hero-section .main h1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: "Roboto", serif;
+    color: #1F4B43;
+    line-height: 78px
+}
+.hero-section .main p{
+    font-size: 17px;
+    font-weight:  400;
+    font-family: "Roboto", serif;
+    line-height: 32.3px;
+}
+.hero-section .main .sale .child-sale {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 60px;
+    padding: 35px 0;
+}
+.hero-section .main .sale .child-sale li{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+.hero-section .main .sale .child-sale li:first-child::before{
+    content: "";
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+}
+.hero-section .main .input-row .w-80{
+    max-width: 1070px;
+    padding: 20px 25px;
+    background-color: #FFF8F6;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    
+}
+
+.hero-section .main .input-row .w-80 .input-select{
+    width: calc(15% - 7px);
+}
+.hero-section .main .input-row .w-80 .input-select #opt{
+    width: 100%;
+    column-gap: 20px;
+    padding: 7px 8px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    line-height: 28px;
+} 
+
+.hero-section .main .input-row .w-80 .in-tex{
+    width: calc(60% - 7px);
+}
+.hero-section .main .input-row .w-80 .in-tex .tex{
+    width: 100%;
+    padding: 7px 20px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    border: 0.5px solid black;
+}
+.hero-section .main .input-row .w-80 .wrp-input{
+    width: calc(25% - 7px);
+}
+.hero-section .main .input-row .w-80 .wrp-input ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.hero-section .main .input-row .w-80 .wrp-input ul li{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    padding: 7px 30px;
+    background-color: #F6F8FA;
+    border: 0.5px solid black;
+    border-radius: 50px;
+    flex-grow: 1;
+}
+.hero-section .main .input-row .w-80 .wrp-input ul li:last-child{
+    background-color: #254EF0;
+    color: white;
+}
+
+
+
+/* ........................................hero-section-end.......................... */
+
+/* ...........................................country-section-start................... */
+.country-section{
+    padding: 165px 0;
+}
+
+.country-section .heading{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Roboto", serif;
+    line-height: 52px;
+}
+.country-section p{
+    text-align: center;
+    color: rgb(12, 12, 12);
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    padding-bottom: 40px;
+    line-height: 32.3px;
+}
+.country-section .wrapper .w-50 .second-row {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.country-section .wrapper .w-50 .second-row .second{
+    width: calc(20% - 17px);
+    position: relative;
+    flex-grow: 1;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.country-section .wrapper .w-50 .second-row .second img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+.country-section .wrapper .w-50 .second-row .second .pro ul{
+    position: absolute;
+    top: 25px;
+    left: 17px;
+    z-index: 1;
+}
+.country-section .wrapper .w-50 .second-row .second .pro ul li{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 10px;
+    font-family: "Roboto", serif;
+    
+}
+.country-section .wrp ul{
+    display: flex;
+    justify-content: center;
+    padding-bottom:50px;
+    column-gap: 25px;
+}
+.country-section .wrp ul li{
+    font-size: 16px;
+    font-weight: 500;
+    padding:5px 21px ;
+    line-height: 30.4px;
+    font-family: "Roboto", serif;
+    
+}
+.country-section .wrp ul li:first-child{
+    border: 1px solid #1A1A1A;
+    border-radius: 50px;
+    background-color: #FFF8F6;
+}
+
+.country-section .wrapper .w-50 .second-row  .second::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    visibility: hidden;
+}
+.country-section .wrapper .second-row  .second:hover.second::before{
+    visibility: visible;
+}
+
+
+
+/* ...........................................country-section-end................... */
+
+
+/* .......................................cust-fovour-start................................ */
+.cust-fovour h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Roboto", serif;
+    line-height: 52px;
+}
+.cust-fovour p{
+    text-align: center;
+    color: rgb(12, 12, 12);
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    padding-bottom: 40px;
+    line-height: 32.3px;
+}
+.cust-fovour .wrapper-cst{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding-bottom: 184px;
+}
+
+.cust-fovour .wrapper-cst .item{
+    width:calc(25% - 23px);
+    padding: 20px;
+    background-color: #F9F9F9;
+    flex-grow: 1;
+    border: 0;
+}
+.cust-fovour .wrapper-cst .item .co-h{
+    font-size: 40px;
+    font-weight: 500;
+    color: #EB664E;
+    padding-bottom: 40px;
+    font-family: "Roboto", serif;
+}
+.cust-fovour .wrapper-cst .item span{
+    font-size: 19px;
+    font-weight: 500;
+    color: #1A1A1A;
+    padding-bottom: 20px;
+    font-family: "Roboto", serif;
+    display: block;
+    line-height: 27.3px;
+}
+.cust-fovour .wrapper-cst .item span:nth-child(3){
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1A1A;
+    padding-bottom: 20px;
+    font-family: "Roboto", serif;
+    display: block;
+    line-height: 30.4px;
+}
+/* .......................................cust-fovour-end................................ */
+
+
+/* ........................................home-for-you-start..................... */
+.home-for-you{
+    background-color: #F6F8FA;
+    padding: 165px 0;
+}
+.home-for-you h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size :40px;
+    font-weight: 500;
+    font-family: "Roboto", serif;
+    line-height: 52px;
+}
+.home-for-you .content{
+    text-align: center;
+    color: rgb(12, 12, 12);
+    font-size :17px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    padding-bottom: 30px;
+    line-height: 32.3px;
+}
+.home-for-you .wrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+.home-for-you .wrapper .item{
+    width: calc(33% - 21px);
+    padding: 11px;
+    border: 1px solid #E9E9E9;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.home-for-you .wrapper .item img{
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    transition: 2s;
+   
+}
+.home-for-you .wrapper .item img:hover{
+    transform: scale(0.9);
+}
+
+.home-for-you .wrapper .item .wrapper-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.home-for-you .wrapper .item .wrapper-row h2{
+    color: rgb(0, 0, 0);
+    font-size :19px;
+    font-weight: 500;
+    font-family: "Roboto", serif;
+    line-height: 22.8px;
+}
+.home-for-you .wrapper .item .wrapper-row h3{
+    color: rgb(0, 0, 0);
+    font-size :21px;
+    font-weight: 600;
+    font-family: "Roboto", serif;
+    line-height: 31.5px;
+    color: #EB664E;
+}
+.home-for-you .wrapper .item .contect {
+    font-size :16px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    line-height: 30.4px;
+}
+.home-for-you .wrapper .item .category {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    
+}
+.home-for-you .wrapper .item .category h3{
+    font-size: 21px;
+    color: #EB664E;
+    font-weight: 600;
+    font-family: "Roboto", serif;
+}
+.home-for-you .wrapper .item .category .ctg-list{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    
+}
+
+.home-for-you .wrapper .item p{
+    font-size :16px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    line-height: 30.4px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.home-for-you .round{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+.home-for-you .round h6{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-for-you .round h6:hover{
+    transform: scale(1.5);
+}
+.home-for-you .round  h6:nth-child(2){
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white;
+}
+.home-for-you .round  h6:nth-child(3){
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white;
+}
+
+/* ........................................home-for-you-end..................... */
+
+
+/* ...........................................country-section-start................... */
+.city-section{
+    padding: 165px 0;
+}
+
+.city-section .heading{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Roboto", serif;
+    line-height: 52px;
+}
+.city-section p{
+    text-align: center;
+    color: rgb(12, 12, 12);
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    padding-bottom: 40px;
+    line-height: 32.3px;
+}
+.city-section .wrapper .w-50 .second-row {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.city-section .wrapper .w-50 .second-row .second{
+    width: calc(20% - 17px);
+    position: relative;
+    flex-grow: 1;
+    overflow: hidden;
+}
+.city-section .wrapper .w-50 .second-row .second img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 16px;
+}
+
+.city-section .wrapper .w-50 .second-row .second .pro ul li{
+    font-size: 15px;
+    font-weight: 400;
+    color: #1A1A1A;
+    font-family: "Roboto", serif;
+    padding-top: 20px;
+    
+}
+.city-section .wrapper .w-50 .second-row .second .pro ul li:nth-child(2){
+    color: #1A1A1A;
+    font-weight: 700;
+}
+.city-section .wrp ul{
+    display: flex;
+    justify-content: center;
+    padding-bottom:50px;
+    padding-top: 20px;
+    column-gap: 25px;
+}
+.city-section .wrp ul li{
+    font-size: 16px;
+    font-weight: 500;
+    padding:5px 21px ;
+    line-height: 30.4px;
+    font-family: "Roboto", serif;
+    color: #1A1A1A;
+    
+}
+.city-section .wrp ul li:first-child{
+    border: 1px solid #1A1A1A;
+    border-radius: 50px;
+    background-color: #FFF8F6;
+}
+
+
+.city-section .wrapper .second-row  .second:hover.second::before{
+    visibility: visible;
+}
+
+
+
+/* ...........................................country-section-end................... */
+
+/* ........................................villege-for-you-start..................... */
+.villege-for-you{
+    background-color: #F6F8FA;
+    padding: 165px 0;
+    padding-bottom: 0;
+}
+.villege-for-you h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size :40px;
+    font-weight: 500;
+    font-family: "Roboto", serif;
+    line-height: 52px;
+}
+.villege-for-you .content{
+    text-align: center;
+    color: rgb(12, 12, 12);
+    font-size :17px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    padding-bottom: 30px;
+    line-height: 32.3px;
+}
+.villege-for-you .wrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+.villege-for-you .wrapper .item{
+    width: calc(25% - 16px);
+    border: 1px solid #E9E9E9;
+    margin-bottom: 20px;
+    overflow: hidden;
+    flex-grow: 1;
+    padding: 5px;
+}
+.villege-for-you .wrapper .item img{
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    transition: 2s;
+   
+}
+.villege-for-you .wrapper .item img:hover{
+    transform: scale(0.9);
+}
+
+.villege-for-you .wrapper .item .wrapper-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.villege-for-you .wrapper .item .wrapper-row h2{
+    color: rgb(0, 0, 0);
+    font-size :19px;
+    font-weight: 500;
+    font-family: "Roboto", serif;
+    line-height: 22.8px;
+}
+.villege-for-you .wrapper .item .wrapper-row h3{
+    color: rgb(0, 0, 0);
+    font-size :21px;
+    font-weight: 600;
+    font-family: "Roboto", serif;
+    line-height: 31.5px;
+    color: #EB664E;
+}
+.villege-for-you .wrapper .item .contect {
+    font-size :16px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    line-height: 30.4px;
+}
+.villege-for-you .wrapper .item .category {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    
+}
+.villege-for-you .wrapper .item .category h3{
+    font-size: 19px;
+    color: #EB664E;
+    font-weight: 600;
+    font-family: "Roboto", serif;
+}
+.villege-for-you .wrapper .item .category .ctg-list{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    
+}
+
+.villege-for-you .wrapper .item p{
+    font-size :16px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    line-height: 30.4px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+.villege-for-you .round{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+.villege-for-you .round h6{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.villege-for-you .round h6:hover{
+    transform: scale(1.5);
+}
+.villege-for-you .round  h6:nth-child(2){
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white;
+}
+.villege-for-you .round  h6:nth-child(3){
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white;
+}
+
+/* ........................................villege-for-you-end..................... */
+
+
+/* ........................................work-section-start...................................... */
+.work-section {
+    padding: 165px 0;
+}
+
+.work-section .wrapper-row-l{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+}
+.work-section .wrapper-row-l .w-50{
+    position: relative;
+    width: calc(40% - 35px)
+}
+.work-section .wrapper-row-l .w-30{
+    width: calc(60% - 35px);
+}
+
+.work-section .wrapper-row-l .w-50 .child-img{
+    width: 100%;
+}
+.work-section .wrapper-row-l .w-50 .child-img img{
+    width: 80%;
+    object-fit: cover;
+}
+.work-section .wrapper-row-l .w-50 .child-img{
+    width: 100%;
+    display: flex;
+    column-gap: 20px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+.work-section .wrapper-row-l .w-50 .child-img .first{
+    width: calc(40% - 14px);
+    flex-grow: 1;
+}
+.work-section .wrapper-row-l .w-50 .child-img .first img{
+    width: 100%;
+    object-fit: cover;
+}
+.work-section .wrapper-row-l .w-50 .child-img .second{
+    width: calc(60% - 14px);
+}
+.work-section .wrapper-row-l .w-50 .child-img .second img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.work-section .wrapper-row-l .w-50 .absolute{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+}
+
+
+
+/* .................................................................................................... */
+.work-section .wrapper-row-l .w-50{
+    width: 50%;
+    overflow: hidden;
+}
+.work-section .wrapper-row-l .w-50 img:hover{
+    transform: scale(1.5);
+}
+.work-section .wrapper-row-l .w-50 img{
+    width: 100%;
+    object-fit: cover;
+    transition: 2s;
+}
+.work-section .wrapper-row-l .w-50 .absolute{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    column-gap: 20px;
+    background-color: #E9E9E9;
+    padding: 10px ;
+    max-width: 50%;
+    borer-radius: 20px;d
+}
+.work-section .wrapper-row-l .w-50 .absolute h1{
+    width: 40px;
+    height: 40px;
+    background-color: #03045e;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+.work-section .wrapper-row-l .w-50 .absolute h2{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+}
+.work-section .wrapper-row-l .w-50 .absolute h2 span{
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    font-family: "Roboto", serif;
+}
+
+.work-section .wrapper-row-l .w-30{
+    width: 50%;
+}
+.work-section h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 52px;
+    color: #1A1A1A;
+    font-family: "Roboto", serif;
+    padding-bottom: 20px;
+}
+.work-section  p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height:  30.4px;
+    color: #1A1A1A;
+    font-family: "Roboto", serif;
+    padding-bottom: 30px;
+}
+.work-section .wrapper-row-l .w-30 .item-im{
+    display: flex;
+    column-gap: 20px;
+    padding-bottom: 30px;
+}
+.work-section .wrapper-row-l .w-30 .item-im h1{
+    width: 45px;
+    height: 46px;
+}
+.work-section .wrapper-row-l .w-30 .item-im h1 img{
+    width: 100%;
+    object-fit: cover;
+}
+.work-section .wrapper-row-l .w-30 .item-im h4{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 25.2px;
+    color: #1A1A1A;
+    font-family: "Roboto", serif;
+    padding-bottom:11px;
+    
+}
+.work-section .wrapper-row-l .w-30 .item-im span{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28.5px;
+    color: #1A1A1A;
+    font-family: "Roboto", serif;
+    
+}
+/* ........................................work-section-end...................................... */
+
+
+/* ........................................bg-start............................................. */
+.bg{
+    background-image: url(../img/pro-1/div.elementor-element.jpg);
+    background-size: cover;
+    width: 100%;
+    padding: 220px 0;
+    text-align: center;
+}
+.bg .row-detail{
+    text-align: center;
+    width: 100%;
+}
+.bg .row-detail h1{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 78px;
+    font-family: "Roboto", serif;
+    padding-bottom: 20px;
+    
+}
+.bg .w-1140 .row-detail p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30.4px;
+    font-family: "Roboto", serif;
+    padding-bottom: 20px;
+    text-align: center;
+    max-width: 476px;
+    margin: 0 auto;
+  
+}
+.bg .row-detail a button{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 54px;
+    font-family: "Roboto", serif;
+    padding: 0 30px;
+    background-color: #254EF0;
+    border: 0;
+    border-radius: 12px;
+    color: white;
+}
+/* ........................................bg-end............................................. */
+
+
+/* ......................................l-right-start....................... */
+.l-right{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-top: 165px;
+    column-gap: 130px;
+}
+.l-right .w-50{
+    width: calc(60% - 91px);
+    padding: 10px;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+.l-right .w-50::after{
+    content: "";
+    position: absolute;
+    width: 800px;
+    height: 150px;
+    background-color: #0c0c0c;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%)rotate(45deg);
+    animation: round 5s linear infinite;
+    z-index: -1;
+}
+@keyframes round {
+    100%{
+        transform: translate(-50% , -50%)rotate(360deg);
+    }
+}
+
+.l-right .w-50 img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+.l-right .w-40 {
+    width: calc(60% - 91px);
+}
+.l-right .w-40 h1{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Roboto", serif;
+    line-height: 52px;
+    padding-bottom: 20px;
+    max-width: 450px;
+    color: #1A1A1A;
+}
+.l-right .w-40 p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    line-height: 30.4px;
+    padding-bottom: 40px;
+    color: #1A1A1A;
+}
+.l-right .w-40 .wrapper-r{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    
+}
+.l-right .w-40 .wrapper-r .item-r{
+    flex-grow: 1;
+    width: calc(50% - 14px );
+}
+.l-right .w-40 .wrapper-r .item-r h1{
+    font-size: 21px;
+    font-weight: 500;
+    font-family: "Roboto", serif;
+    line-height: 21px;
+    padding-bottom: 20px;
+    color: #1A1A1A;
+}
+.l-right .w-40 .wrapper-r .item-r p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    line-height: 28.5px;
+    padding-bottom: 41px;
+    max-width: 247px;
+    color: #1A1A1A;
+}
+
+.l-right .w-40 a{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 54px;
+    font-family: "Roboto", serif;
+    padding: 20px 30px;
+    background-color: #254EF0;
+    border: 0;
+    border-radius: 12px;
+    color: white;
+}
+
+/* ......................................l-right-end....................... */
+
+
+
+/* ...................................logo-row-start......................... */
+.logo-row{
+    padding: 180px 0 155px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.logo-row .co-tex{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32.3px;
+    color: #1A1A1A;
+    font-family: "Roboto", serif;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.logo-row .logo-com .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo-row .logo-com .wrapper .logo-item{
+    width: 10%;
+}
+.logo-row .logo-com .wrapper .logo-item img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+.logo-row .logo-com .wrapper .logo-item:hover{
+    transform: scale(1.5);
+}
+/* ...................................logo-row-end......................... */
+
+/* ...............................footer-section-start.......................... */
+.footer-section{
+    padding-TOP: 100px ;
+    background-color: #1A1A1A;
+   
+}
+.footer-section span{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 24px;
+   color: white;
+}
+
+.footer-section h2{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #ffffff;
+    font-family: "Roboto", serif;
+    text-align: center;
+    padding: 40px 0;
+}
+.footer-section p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28.5px;
+    color: #ffffff;
+    font-family: "Roboto", serif;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.footer-section .in-tex{
+    max-width: 570px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 100px;
+   
+}
+.footer-section .in-tex .tex{
+    width: 100%;
+    padding: 21px 0;
+    padding-left: 31px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: "Roboto", serif; 
+    background-color:rgba(255, 255, 255, 0.5);
+    border: 0;
+    border-radius: 80px;
+}
+
+.footer-section .in-tex .tex::placeholder{
+    color: white;
+}
+
+.footer-section .in-tex span{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28.5px;
+    color: #ffffff;
+    font-family: "Roboto", serif; 
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    position: absolute;
+    top: 30%;
+    right: 40px;
+}
+
+.footer-section .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0;
+    background-color: #222121;
+}
+
+.footer-section .wrapper h5{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28.5px;
+    color: #ffffff;
+    font-family: "Roboto", serif; 
+}
+
+.footer-section .wrapper h1{
+    width: 10%;
+}
+.footer-section .wrapper h1 img{
+    width: 100%;
+    object-fit: cover;
+}
+.footer-section .wrapper .ic ul{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    color: white;
+}
+
+.footer-section .wrapper .ic ul li{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-section .wrapper .ic ul li:hover{
+    transform: scale(1.5);
+}
+/* ...............................footer-section-end.......................... */
+

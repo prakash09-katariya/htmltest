@@ -1,0 +1,491 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family:"Roboto", serif;
+}
+.w-100{
+    width: 100%;
+}
+.w-1140{
+    width: 1140px;
+    margin: 0 auto;
+}
+.header-section{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+}
+.header-section .navigation-menu .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    z-index: 1;
+}
+.header-section .navigation-menu .wrapper .logo{
+    width: 10%;
+}
+.header-section .navigation-menu .wrapper .logo img{
+    width: 100%;
+    object-fit: cover;
+    color: white;
+}
+.header-section .navigation-menu .wrapper .nav-menu .nav-list{
+    display: flex;
+    column-gap: 50px;
+}
+.header-section .navigation-menu .wrapper .nav-menu .nav-list .nav-items .nav-link{
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(19, 18, 18);
+}
+.header-section .navigation-menu .wrapper .nav-menu .nav-list .nav-items .nav-link:hover{
+    color: blueviolet;
+}
+.header-section .navigation-menu .wrapper .nav-icone .icone-list{
+    display: flex;
+    column-gap: 12px;
+}
+.header-section .navigation-menu .wrapper .nav-icone .icone-list .icone-item .icon-link {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(20, 20, 20);
+}
+.header-section .navigation-menu .wrapper .nav-icone .icone-list .icone-item .icon-link:hover{
+    transform: scale(1.5);
+}
+
+/* ................................................nav-end................................. */
+
+/* ................................hero-start................................................... */
+.hero-section{
+    background-image: url(../img/pro-1/Mask\ group.jpg);
+    background-size: cover;
+    position: relative;
+}
+.hero-section .wrapper-hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-section .wrapper-hero .png-img{
+    width: 438px;
+    height: 655px;
+}
+.hero-section .wrapper-hero .png-img img{
+    width: 100%;
+    object-fit: cover;
+}
+.hero-section .wrapper-hero .wr-right .heading{
+    font-size: 7.3rem;
+    font-weight: 700;
+    max-width: 659px;
+    color: #1b5381;
+}
+.hero-section .wrapper-hero .wr-right button {
+    padding: 13px 14px;
+    background-color: #1b5381;
+    margin-top: 43px;
+    border: 0;
+}
+.hero-section .wrapper-hero .wr-right button a{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+/* ................................hero-end................................................... */
+
+/* ......................................anounsement-start.................................. */
+.anounsement{
+    background-color: #1b5381;
+    padding: 25px 0;
+}
+.anounsement span{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 10px;
+    
+
+}
+/* ......................................anounsement-end.................................. */
+
+/* ..........................................................shop-category-start............................. */
+
+.product-type .pro-heading {
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    color: #1b5381;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.pro-wrapper {
+    display: flex;
+    column-gap: 25px;
+    flex-wrap: wrap;
+}
+.pro-wrapper .shop-men {
+    width: calc(33.33% - 25px);
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    flex-grow: 1;
+}
+.pro-wrapper .shop-men img {
+    width: 100%;
+    transition: 2s;
+    display: block;
+    
+}
+.pro-wrapper .shop-men img:hover{
+    transform: scale(1.1);
+}
+.pro-wrapper .shop-men button {
+    width: 135px;
+    height: 47px;
+    padding: 14px 13px;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #1b5381;
+    color: white;
+    position: absolute;
+    bottom: 27px;
+    left: 50%;
+    transform: translate(-50%);
+    border: 0;
+}
+.pro-wrapper .shop-men button :hover{
+    box-shadow: 0 0 0 5px blue;
+}
+
+/* ..........................................................shop-category-end............................. */
+/* ........................................pro-list-start................................ */
+.pro-list .pr-heading {
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    color: #1b5381;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.pro-list .pr-heading::before {
+    content: "";
+    width: 56px;
+    height: 5px;
+    background-color: #1b5381;
+    position: absolute;
+    top: 70px;
+    left: 34%;
+}
+
+.pro-list .pr-heading::after {
+    content: "";
+    width: 56px;
+    height: 5px;
+    background-color: #1b5381;
+    position: absolute;
+    top: 70px;
+    left: 61%;
+}
+/* ........................................pro-list-end................................ */
+/* ............................................pro-wrapper-row-start............................ */
+
+
+.pro-list .pro-wrapper-row .main-wrapper {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+    
+}
+.pro-list .pro-wrapper-row .main-wrapper .items {
+    width: calc(25% - 15px);
+    height: auto;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.pro-list .pro-wrapper-row .main-wrapper .items img {
+    width: 100%;
+    object-fit: cover;
+    transition: 2s;
+
+}
+.pro-list .pro-wrapper-row .main-wrapper .items img:hover{
+    transform: scale(0.9);
+}
+.pro-list .pro-wrapper-row .main-wrapper .items p{
+    font-size: 14px;
+    font-weight: 700;
+    color:#1B5381;;
+    position: relative;
+    padding-bottom: 8px;
+}
+.pro-list .pro-wrapper-row .main-wrapper .items .content{
+    font-size: 14px;
+    font-weight: 700;
+    color:#1B5381;;
+    position: relative;
+}
+.pro-list .pro-wrapper-row .main-wrapper .items .content span{
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* .pro-list .pro-wrapper-row .main-wrapper .items .content::before{
+    content: "";
+    width: 56px;
+    height: 5px;
+    background-color: #1b5381;
+    position: absolute;
+    top: 70px;
+    left: 33%;
+} */
+
+/* ............................................pro-wrapper-row-end............................ */
+/* .................................shop-look-start.............................. */
+.shop-look .shop-heading{
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    color: #1b5381;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    position: relative;
+}
+.shop-look .shop-heading::before{
+    content: "";
+    width: 56px;
+    height: 5px;
+    background-color: #1b5381;
+    position: absolute;
+    top: 70px;
+    left: 29%;
+}
+.shop-look .shop-heading::after{
+    content: "";
+    width: 56px;
+    height: 5px;
+    background-color: #1b5381;
+    position: absolute;
+    top: 70px;
+    left: 67%
+}
+.shop-look p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: black;
+}
+.shop-look .wrapper{
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+.shop-look .wrapper p{
+    width:calc(50% - 14px);
+    overflow: hidden;
+    
+}
+.shop-look .wrapper p img{
+    width: 100%;
+    object-fit: cover;
+    transition: 2s;
+    flex-grow: 1;
+
+}
+.shop-look .wrapper p img:hover{
+    transform: scale(1.2);
+}
+/* .................................shop-look-end.............................. */
+
+/* ........................................content-section-start...................... */
+
+.content-section{
+    background-color: #D2D6D9;
+    padding:80px 40px;
+}
+.content-section h1{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+.content-section h1 span{
+    display: block;
+    padding: 20px 0;
+}
+.content-section p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+.content-section .content-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+
+   
+}
+
+.content-section .content-row .right{
+    font-size: 14px;
+    font-weight: 700;
+    border-bottom: 1px solid black;
+    padding: 8px 0;
+}
+.content-section .content-row .left{
+    width: 402px;
+}
+.content-section .content-row .left .in{
+    width: 100%;
+    border: 0;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.5;
+    padding: 8px 0;
+    border-bottom: 0.5px solid black;
+    background-color:  #D2D6D9;
+}
+
+
+/* ........................................content-section-end...................... */
+
+/* .........................logo-comp-start....................................... */
+.logo-row .logo-comp ul{
+    display: flex;
+}
+
+.logo-row .logo-comp ul li{
+    width: 25%;
+}
+.logo-row .logo-comp ul li img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+/* .........................logo-comp-end....................................... */
+
+/* ...............................footer-start............................. */
+.footer-section{
+    background-color: #1B5381;
+    padding: 60px 0 72px;
+}
+.footer-section .logo-row{
+    width: 10%;
+    padding-bottom: 40px;
+}
+.footer-section .logo-row img{
+    width: 100%;
+    object-fit: cover;
+}
+.footer-section .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-section .wrapper .items ul li{
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.footer-section .wrapper .second-coll h1{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.footer-section .wrapper .second-coll ul li{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 6px;
+}
+.footer-section .wrapper .wrapper-left {
+    display: flex;
+    align-items: start;
+    column-gap: 50px;
+}
+.footer-section .wrapper .wrapper-left .about h3{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.footer-section .wrapper .wrapper-left .about p{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    max-width: 340px;
+    line-height: 20px;
+}
+
+.footer-section .wrapper .wrapper-left .about a{
+    padding: 5px 10px;
+    background-color: #D2D6D9;
+    color: #1B5381;
+    border-radius: 13px;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+.footer-section .wrapper .wrapper-left .about .logo-co {
+    margin-top: 20px;
+}
+.footer-section .wrapper .wrapper-left .about .logo-co ul {
+    display: flex;
+    column-gap:10px ;
+}
+.footer-section .wrapper .wrapper-left .about .logo-co ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+}
+.footer-section .wrapper .imge-left h1{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom:30px;
+}
+.footer-section .wrapper .imge-left .item{
+    display: flex;
+    column-gap: 10px;
+}
+.footer-section .wrapper .imge-left .item .ig{
+    width: 54px;
+}
+.footer-section .wrapper .imge-left .item .ig img{
+    width: 100%;
+}
+.footer-section .wrapper .imge-left .item h2{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom:19px;
+    max-width: 157px;
+}
+
+
+
+/* ...............................footer-end............................. */

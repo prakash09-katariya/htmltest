@@ -1,0 +1,283 @@
+@media (max-width:1400px) {
+    .w-1140{
+        width: 1140px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:1200px) {
+    .w-1140{
+        width: 992px;
+        margin: 0 auto;
+    }
+    .hero-section .wrapper-hero .wr-right .heading {
+        font-size: 6.3rem;
+    }
+    .pro-list .pr-heading::before {
+        top: 70px;
+        left: 31%;
+    }
+    .pro-list .pr-heading::after {
+        top: 70px;
+        left: 64%;
+    }
+    .shop-look .shop-heading::before {
+        top: 70px;
+        left: 27%;
+    }
+}
+
+@media (max-width:992px) {
+    .w-1140{
+        width: 720px;
+        margin: 0 auto;
+    }
+    .hero-section .wrapper-hero .wr-right .heading {
+        font-size: 4.3rem;
+    }
+    .hero-section .wrapper-hero .png-img {
+        height: 431px;
+    }
+    .anounsement {
+        padding: 12px 0;
+    }
+    .pro-list .pr-heading::before {
+        top:57px;
+        left: 24%;
+    }
+    .pro-list .pr-heading::after {
+        top:57px;
+        left: 68%;
+    }
+    .shop-look .shop-heading::before {
+        top:57px;
+        left: 18%;
+    }
+    .shop-look .shop-heading::after {
+        top:57px;
+        left: 73%;
+    }
+    .content-section {
+        padding: 50px 40px;
+    }
+    .footer-section {
+        padding: 33px 0 36px;
+    }
+    .product-type .pro-heading {
+        font-size: 40px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .pro-list .pr-heading {
+        font-size: 40px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .shop-look .shop-heading {
+        font-size: 40px;
+        padding-top: 30px;
+    }
+    .pro-list .pro-wrapper-row .main-wrapper .items .content {
+        font-size: 12px;
+    }
+    .pro-list .pro-wrapper-row .main-wrapper .items p {
+        font-size: 12px;
+    }
+    .pro-list .pro-wrapper-row .main-wrapper .items .content span {
+        font-size: 12px;
+    }
+    .pro-list .pro-wrapper-row .main-wrapper {
+        gap: 10px;
+    }
+    .pro-wrapper .shop-men button {
+        width: 123px;
+        height: 45px;
+    }
+    .shop-look .wrapper p {
+        width: calc(50% - 10px);
+    }
+    .hero-section .wrapper-hero .wr-right button a {
+        font-size: 20px;
+    }
+    .footer-section .wrapper {
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer-section .wrapper .wrapper-left {
+        justify-content: space-between;
+        width: 100%;
+    }
+    .footer-section .wrapper .items ul li{
+        align-items: left;
+    }
+    .header-section .navigation-menu .wrapper .nav-menu .nav-list {
+        column-gap: 24px;
+    }
+    .hero-section .wrapper-hero .wr-right button {
+        margin-top: 22px;
+    }
+}
+
+@media (max-width:768px) {
+    .w-1140{
+        width: 540px;
+        margin: 0 auto;
+    }
+    .header-section .navigation-menu .wrapper .nav-menu .nav-list {
+        display: none;
+    }
+    .hero-section .wrapper-hero .wr-right .heading {
+        font-size: 2.3rem;
+    }
+    .hero-section .wrapper-hero .png-img {
+        height:348px;
+    }
+    .hero-section {
+        overflow: hidden;
+    }
+    .anounsement {
+        padding: 4px 0;
+    }
+    .anounsement span {
+        font-size: 10px;
+    }
+    .hero-section .wrapper-hero .wr-right button a {
+        font-size: 12px;
+        padding: 13px 14px;
+    }
+    .product-type .pro-heading {
+        font-size: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .pro-list .pr-heading {
+        font-size: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .shop-look .shop-heading {
+        font-size: 30px;
+        padding-top: 15px;
+    }
+    .content-section h1 {
+        font-size: 23px;
+        line-height: 14px;
+    }
+    .content-section .content-row .right {
+        font-size: 12px;
+    }
+    .content-section .content-row .left {
+        width: 203px;
+    }
+    .pro-list .pr-heading::before {
+        top: 34px;
+        left: 24%;
+    }
+    .pro-list .pr-heading::after {
+        top: 34px;
+        left: 68%;
+    }
+    .shop-look .shop-heading::before {
+        top: 34px;
+        left: 18%;
+    }
+    .shop-look .shop-heading::after {
+        top: 34px;
+        left: 73%;
+    }
+    .shop-look p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .pro-list .pro-wrapper-row .main-wrapper .items {
+        width: calc(33% - 15px);
+    }
+    .pro-wrapper .shop-men button {
+        width: 77px;
+        height: 28px;
+    }
+    .pro-wrapper .shop-men button {
+        width: 75px;
+        height: 24px;
+        padding: 6px 7px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width:576px) {
+    .w-1140{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .pro-list .pro-wrapper-row .main-wrapper .items {
+        width: calc(50% - 15px);
+    }
+    .hero-section .wrapper-hero .png-img {
+        height: 255px;
+    }
+    .hero-section .wrapper-hero .wr-right button {
+        margin-top: 14px;
+        padding: 9px 6px;
+    }
+    .pro-wrapper .shop-men button {
+        width: 77px;
+        height: 28px;
+    }
+    .pro-wrapper .shop-men button {
+        width: 75px;
+        height: 24px;
+        padding: 6px 7px;
+        font-size: 10px;
+    }
+    .product-type .pro-heading {
+        font-size: 23px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+    .pro-list .pr-heading {
+        font-size: 23px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+    .shop-look .shop-heading {
+        font-size: 23px;
+        padding-top: 13px;
+    }
+    .content-section h1 {
+        font-size: 20px;
+        line-height: 12px;
+    }
+    .content-section p {
+        font-size: 11px;
+    }
+    .content-section .content-row .left .in {
+        font-size: 12px;
+    }
+    .pro-list .pr-heading::before {
+        top: 27px;
+        left: 26%;
+    }
+    .pro-list .pr-heading::after {
+        top: 27px;
+        left: 62%;
+    }
+    .shop-look .shop-heading::before {
+        top: 27px;
+        left: 22%;
+    }
+    .shop-look .shop-heading::after {
+        top: 27px;
+        left: 67%;
+    }
+    .header-section .navigation-menu .wrapper .logo {
+        width: 17%;
+    }
+    .footer-section .wrapper .wrapper-left .about p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .footer-section .wrapper .second-coll ul li {
+        font-size: 12px;
+    }
+   
+}

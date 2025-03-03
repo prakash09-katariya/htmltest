@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .footer .fo ul{
+            display: flex;
+            flex-direction: column;
+            align-items:start;
+            list-style: none;
+            position: relative;
+        }
+        .footer .fo ul ul{
+            display: none;
+        }
+        footer .fo ul ul {
+            flex-direction: column;
+        }
+
+        .footer .fo ul li a{
+            width: 100px;
+            display: block;
+            height: 30px;
+            line-height: 30px;
+            text-decoration: none;
+        }
+        .footer .fo ul li a:hover{
+            color: black;
+            background-color: antiquewhite;
+        }
+
+        .footer .fo ul li:hover>ul{
+            display: block;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="w-100">
+        <footer class="footer">
+            <div class="fo">
+                <ul>
+                    <li><a href="">Discover</a>
+                        <ul>
+                            <li><a href="">Miami</a></li>
+                            <li><a href="">New York</a></li>
+                            <li><a href="">Chicago</a></li>
+                            <li><a href="">Florida</a></li>
+                            <li><a href="">LOs Angeles</a></li>
+                            <li><a href="">San Diego</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Quick links</a>
+                        <ul>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="">FAQ'S</a></li>
+                            <li><a href="">blog</a></li>
+                            <li><a href="">Pricing Plans</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Term & Conditions</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Contact Us</a>
+                        <ul>
+                            <li><a href="">hi@justhome.com</a></li>
+                            <li><a href="">(123)456-7890</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Our Address</a>
+                        <ul>
+                            <li><a href="">99 Fifth Avenue, 3rd Floo San Francisco,CA 1980.</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

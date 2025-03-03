@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .list{
+            width: 60%;
+            margin: auto;
+            height: 450px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .list img{
+            width: 10%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50px;
+            transition: 0.5s ease-in-out;
+           
+        }
+
+        .list img:hover{
+            width: 25%;
+            
+        }
+
+        h1{
+            background-image: url(img/pro-1/h25.jpg.jpg);
+            width: 100% ;
+            background-size: contain;
+            font-size: 280px;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        h3{
+            
+            background-image: url(img/pro-1/123.jpg);
+            mix-blend-mode: screen;
+            background-repeat: no-repeat;
+            width: 60%;
+            height: 60%;
+        }
+        h3 img{
+            
+            width: 100%;
+            object-fit: cover;
+            height: 100%;
+        
+        }
+        .watch-body{
+            width: 500px;
+            height: 500px;
+            border-radius: 700px;
+            background-color: aqua;
+            position: relative;
+        }
+       .watch-inner{
+        width: 220px;
+        height: 2px;
+        background-color: black;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%,-50%) rotate(45deg);
+        animation: round 2s linear infinite;
+       }
+       .watch-inner1{
+        width: 220px;
+        height: 2px;
+        background-color: black;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%,-50%) rotate(45deg);
+        animation: round 3s linear infinite;
+       }
+
+       @keyframes round {
+        100%{
+            transform:translate(-50%,-50%) rotate(360deg);
+       }
+    }
+
+    .box{
+        width: 400px;
+        height: 600px;
+        border: 1px solid black;
+        margin: auto;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .box::before{
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+        background-color: blue;
+        transform:translate(-50% ,-50%) rotate(45deg);
+        animation: round 2s linear infinite;
+    }
+    .box::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+        background-color: blue;
+        transform: rotate(45deg);
+        animation: round 8s linear infinite;
+    }
+
+    /* @keyframes round{
+        100%{
+            transform: rotate(360deg);
+        } */
+    }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="list">
+            <img src="img/pro-1/01.jpg" alt="">
+            <img src="img/pro-1/12.jpg" alt="">
+            <img src="img/pro-1/men-1.jpg" alt="">
+            <img src="img/pro-1/men-2.jpg" alt="">
+            <img src="img/pro-1/men-3.jpg" alt="">
+            <img src="img/pro-1/men-4.jpg" alt="">
+        </div>
+        <h1>hello-google</h1>
+        <h3><img src="img/pro-1/testimonial_shape.png" alt=""></h3>
+
+        <div class="watch-body">
+            <div class="watch-inner">
+
+            </div>
+            <div class="watch-inner1">
+
+            </div>
+        </div>
+
+       <div class="box">
+
+       </div>
+    </div>
+</body>
+</html>
