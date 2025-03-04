@@ -1,0 +1,258 @@
+.nav-row-top .item-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    
+
+}
+
+.item-row .icone{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+.item-row a img{
+    width: 40%;
+}
+.nav-row-top{
+    display: none;
+    position:sticky;
+    top:0;
+    z-index: 2;
+}
+
+@media (max-width:1400px) {
+    .w-1140{
+        width: 1140px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:1200px) {
+    .w-1140{
+        width: 960px;
+        margin: 0 auto;
+    }
+}
+@media (max-width:992px) {
+
+    .w-1140{
+        width: 720px;
+        margin: 0 auto;
+    }
+    .nav-row-top{
+        display: block;
+        background-color: black;
+    }
+
+    .header-section{
+        display: none;
+    }
+
+    .home-for-you .wrapper .item {
+        width: calc(50% - 23px);
+    }
+    .country-section .wrapper .w-50 {
+        width: 100%;
+        flex-grow: 1;
+    }
+    .home-section .wrapper .item-home {
+        width: calc(50% - 23px);
+        
+    }
+    .artical .wrapper .art-items {
+        width: 50%;
+       
+    }
+    .hero-section .main {
+        padding-top: 100px;
+    }
+    .home-for-you {
+        padding: 80px 0;
+    }
+    .country-section {
+        padding: 80px 0;
+    }
+    .artical {
+        padding: 80px 0 80px;
+    }
+    .main-prop .tp {
+        padding-top: 80px;
+        
+    }
+    .section-menu {
+        margin-top: 80px;
+    }
+    .customer-review {
+        padding: 80px 0 80px;
+    }
+    .logo-row .logo-com .wrapper .logo-item {
+        padding-bottom: 80px;
+       
+    }
+    .home-section {
+        padding: 80px 0 80px;
+    }
+    .row {
+        padding-top: 80px;
+    }
+    .main-prop .wrapper {
+        flex-direction: column;
+    }
+    .main-prop .wrapper .item-1 {
+        width: 100%;
+    }
+    .main-prop .wrapper .item-2 {
+        width: 100%;
+        
+    }
+    .footer-section .footer-row {
+        padding: 25px 0;
+    }
+    .footer-section .wrapper {
+        padding: 80px 0;
+        gap: 35px;
+    }
+    .register-now-main {
+        padding: 50px 0;
+    }
+    .main-wrapper {
+        padding-bottom: 80px;
+        display: none;
+    }
+    .main-wrapper .item-one {
+        width: 50%;
+        margin-top: 20px;
+    }
+    .row {
+        padding-top: 165px;
+        display: none;
+    }
+   
+}
+
+@media (max-width:768px) {
+    .w-1140{
+        width: 540px;
+        margin: 0 auto;
+    }
+    .artical .wrapper .art-items {
+        width: 100%;
+    }
+    .section-menu .wrapper {
+        flex-direction: column;
+    }
+    .section-menu .wrapper .imge {
+        width: 100%;
+        
+    }
+    .section-menu .wrapper .content {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .section-menu .view .items-view h1 {
+        font-size: 30px;
+        line-height: 55px;
+    }
+    .section-menu .view .items-view p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .section-menu .view .items-view {
+        width: calc(50% - 15px);
+        text-align: center;
+        flex-grow: 1;
+    }
+    .register-now-main .register-now {
+       
+        flex-direction: column;
+    }
+    .home-section .wrapper .item-home {
+        width: 100%;
+    }
+    .customer-review {
+        flex-direction: column;
+    }
+    .customer-review .w-50 {
+        width: 100%;
+    }
+    .footer-section .wrapper .first-coll {
+        width: 100%;
+    }
+    .footer-section .wrapper .fo-coll {
+        width: calc(50% - 21px);
+    }
+    .hero-section .main {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width:576px) {
+    .w-1140{
+        width: 100%;
+        padding:0 15px;
+    }
+    .hero-section .main h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .hero-section .main .sale .child-sale li {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .hero-section .main .main-input .input .tex {
+        width: 100%;
+        padding: 14px 0;
+        padding-left: 17px;
+        font-size: 11px;
+    }
+    .hero-section .main .main-input .input button {
+        width: 40px;
+        height: 40px;
+        top: 2%;
+        right: 5px;
+    }
+    .hero-section .main .main-input .input button i {
+        font-size: 16px;
+    }
+    .hero-section {
+        padding: 29px 0 45px;
+       
+    }
+    .home-for-you {
+        padding: 40px 0;
+    }
+    .home-for-you h1 {
+        font-size: 24px;
+        line-height: 25px;
+    }
+    .home-for-you .content {
+        font-size: 14px;
+        padding-bottom: 16px;
+        line-height: 26.3px;
+    }
+    .home-for-you .wrapper .item {
+        width: 100%;
+    }
+    .country-section .heading {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .country-section p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26.3px;
+    }
+    .country-section .wrapper .w-50 .second-row .second {
+        width: 100%;
+        
+    }
+
+
+}

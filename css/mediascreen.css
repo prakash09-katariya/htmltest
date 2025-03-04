@@ -353,7 +353,11 @@
     width: 100%;
 }
 
+.footer-section .wrapper .first-coll .top-co-wrapper .box button {
     
+    padding: 0px 12px;
+    font-size: 12px;
+} 
     
 }
 
