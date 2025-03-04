@@ -423,7 +423,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    column-gap: 30px;
+    gap: 30px;
     flex-wrap: wrap;
 }
 .country-section .wrapper .w-50 .second-row .second{
@@ -714,6 +714,7 @@
     position: absolute;
     top: 40px;
     left: 40px;
+    font-size: 16px;
 }
 .main-prop .wrapper .item-2 .wrapper .btn button{
     padding: 15px;
@@ -1179,6 +1180,9 @@
     padding: 95px 0;
     flex-wrap: wrap;
 }
+.footer-section .wrapper .first-coll{
+    width: 25%;
+}
 .footer-section .wrapper .first-coll .top-heading{
     color: white;
     opacity: 47%;
@@ -1223,7 +1227,7 @@
     font-family: "Roboto", serif;
 }
 .footer-section .wrapper .fo-coll{
-    width: calc(25% - 21px);
+    width: calc(17% - 21px);
 }
 /* .........................................footer-section-end................................. */
 

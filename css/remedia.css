@@ -134,6 +134,12 @@
         padding-top: 165px;
         display: none;
     }
+    .footer-section .wrapper .fo-coll {
+        width: calc(20% - 21px);
+    }
+    .footer-section .wrapper .first-coll {
+        width: 100%;
+    }
    
 }
 
@@ -190,6 +196,28 @@
     }
     .hero-section .main {
         padding-top: 30px;
+    }
+    .country-section .wrapper .w-50 .first .pro {
+        position: absolute;
+        top: 30px;
+        left: 26px;
+        z-index: 1;
+    }
+    .country-section .wrapper .w-50 .second-row .second .pro {
+        top: 30px;
+        left: 26px;
+    }
+    .country-section .heading {
+        font-size: 36px;
+        line-height: 45px;
+    }
+    .main-prop .wrapper .item-2 .wrapper div button {
+        left: 23px;
+    }
+    .main-prop .wrapper .item-2 .content {
+        position: absolute;
+        top: 75%;
+        left: 34px;
     }
 }
 
@@ -253,6 +281,174 @@
         width: 100%;
         
     }
+    .artical .heading-art {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 500;
+        font-family: "Roboto", serif;
+        line-height: 35px;
+        
+    }
+    .main-prop .wrapper .item-1 .left-2 .part-1 {
+        width: 100%;
+        
+    }
+    .main-prop .wrapper .item-1 .left-2 .part-1 .co h1 {
+        color: white;
+        font-size: 26px;
+    }
+    .main-prop .wrapper .item-1 .left-2 .part-1 .co p {
+        font-size: 17px;
+    }
+    .main-prop .wrapper .item-1 .left-2 .part-1 .co .se {
+        font-size: 12px;
+    }
+    .main-prop .wrapper .item-2 .wrapper div button {
+        padding: 12px;
+        top: 35px;
+        left: 20px;
+        font-size: 12px;
+    }
+    .main-prop .wrapper .item-2 .wrapper .btn button {
+        padding: 12px;
+        top: 35px;
+        left: 127.36px;
+    }
+    .main-prop .wrapper .item-2 .content h1 {
+        font-size: 22px;
+        padding-bottom: 8.19px;
+        color: white;
+    }
+    .country-section .wrapper .w-50 .first .pro ul li:nth-child(2) {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .country-section .wrapper .w-50 .first .pro ul li {
+        font-size: 17px;
+       
+    }
+    .country-section .wrapper .w-50 .second-row .second .pro ul li:nth-child(2) {
+        font-size: 17px;
+    }
+    .country-section .wrapper .w-50 .first .pro {
+        top: 25px;
+        left: 19px;
+    }
+    .country-section .wrapper .w-50 .second-row .second .pro {
+        top: 25px;
+        left: 19px;
+    }
+    .main-prop .tp {
+        padding-top: 40px;
+    }
+    .main-prop .wrapper .item-2 .content {
+        top: 80%;
+        left: 19px;
+    }
+    .section-menu .wrapper {
+        padding: 50px 0 79.5px;
+    }
+    .section-menu .wrapper .content h1 {
+        font-size: 24px;
+    }
+    .section-menu .wrapper .content p {
+        font-size: 12px;
+    }
+    .section-menu .wrapper .content button {
+        font-size: 12px;
+        line-height: 40px;
+        
+    }
+    .main-prop .tp {
+        
+        font-size: 24px;
+        padding-top: 20px;
+        margin-bottom: 10px;
+    }
+    .main-prop .ctn-row {
+        font-size: 14px;
+        padding-bottom: 30px;
+        line-height: 18.3px;
+    }
+    .section-menu .view .items-view {
+        width: 100%;
+    }
+    .section-menu .view {
+        padding-bottom: 80px;
+    }
+    .customer-review {
+        padding: 40px 0 80px;
+    }
+    .customer-review .w-50 h1 {
+        max-width: 428px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .customer-review .w-50 p {
+        max-width: 546px;
+        font-size: 14px;
+       
+    }
+    .logo-row .logo-com .wrapper .logo-item {
+        padding-bottom: 40px;
+    }
+    .home-section h1 {
+        font-size: 26px;
+        line-height: 26px;
+        margin-bottom: 10px;
+    }
+    .home-section {
+        padding: 40px 0 40px;
+    }
+    .register-now-main .register-now h1 {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+    .register-now-main .register-now button {
+        padding: 0px 19px;
+        line-height: 41px;
+        font-size: 14px;
+    }
+   
+    .footer-section .footer-row {
+        align-items: center;
+        padding: 40px 0;
+        flex-direction: column;
+    }
+    .footer-section .footer-row .logo {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .footer-section .wrapper {
+        padding: 40px 0;
+    }
+    .footer-section .wrapper .first-coll .top-heading {
+        padding-bottom: 16px;
+        font-size: 19px;
+    }
+    .footer-section .wrapper .first-coll .co-tex-row {
+        padding-top: 25px;
+    }
+    .footer-section .wrapper .fo-coll h1 {
+        font-size: 17px;
+        line-height: 10px;
+        padding-bottom: 10px;
+    }
+    .footer-section .wrapper .fo-coll ul li {
+        font-size: 14px;
+        line-height: 17.5px;
+        padding: 8px 0;
+    }
+    .footer-section .wrapper .first-coll .top-co-wrapper .box button {
+        padding: 7px 24px;
+        font-size: 14px;
+        line-height: 20.5px;
+
+    }
+       
+       
+    
+    
 
 
 }
