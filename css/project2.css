@@ -386,42 +386,39 @@
     background-color: #1B5381;
     padding: 60px 0 72px;
 }
-.footer-section .logo-row{
-    width: 10%;
-    padding-bottom: 40px;
+
+
+.logo-row{
+    width: 50%;
 }
-.footer-section .logo-row img{
+.logo-row img{
     width: 100%;
     object-fit: cover;
 }
-.footer-section .wrapper{
+.js{
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
 }
-.footer-section .wrapper .items ul{
-    margin: 0;
-    padding: 0;
-}
 
-.footer-section .wrapper .items ul li{
+ .items ul li{
     color: white;
     padding: 10px;
     display: flex;
     align-items: center;
     column-gap: 10px;
 }
-.footer-section .wrapper .second-coll h1{
+.second-coll h1{
     color: white;
     font-size: 16px;
     font-weight: 500;
     padding-bottom: 10px;
 }
-.footer-section .wrapper .second-coll ul{
+ .second-coll ul{
     margin: 0;
     padding: 0;
 }
-.footer-section .wrapper .second-coll ul li{
+ .second-coll ul li{
     color: white;
     font-size: 14px;
     font-weight: 400;
@@ -432,13 +429,13 @@
     align-items: start;
     column-gap: 50px;
 }
-.footer-section .wrapper .wrapper-left .about h3{
+ .about h3{
     color: white;
     font-size: 16px;
     font-weight: 500;
     padding-bottom: 10px;
 }
-.footer-section .wrapper .wrapper-left .about p{
+ .about p{
     color: white;
     font-size: 14px;
     font-weight: 400;
@@ -447,7 +444,7 @@
     line-height: 20px;
 }
 
-.footer-section .wrapper .wrapper-left .about a{
+ .about a{
     padding: 5px 10px;
     background-color: #D2D6D9;
     color: #1B5381;
@@ -456,21 +453,21 @@
     font-weight: 400;
     
 }
-.footer-section .wrapper .wrapper-left .about .logo-co {
+ .about .logo-co {
     margin-top: 20px;
 }
-.footer-section .wrapper .wrapper-left .about .logo-co ul {
+ .about .logo-co ul {
     display: flex;
     column-gap:10px ;
 }
-.footer-section .wrapper .wrapper-left .about .logo-co ul li a{
+ .about .logo-co ul li a{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 24px;
     height: 24px;
 }
-.footer-section .wrapper .imge-left h1{
+ .imge-left h1{
     color: white;
     font-size: 18px;
     font-weight: 500;
@@ -480,13 +477,13 @@
     display: flex;
     column-gap: 10px;
 }
-.footer-section .wrapper .imge-left .item .ig{
+.imge-left .item .ig{
     width: 54px;
 }
-.footer-section .wrapper .imge-left .item .ig img{
+ .imge-left .item .ig img{
     width: 100%;
 }
-.footer-section .wrapper .imge-left .item h2{
+ .imge-left .item h2{
     color: white;
     font-size: 14px;
     font-weight: 400;
@@ -494,6 +491,13 @@
     max-width: 157px;
 }
 
-
+.footer-section .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-section .wrapper .item-1{
+    width: 50%;
+}
 
 /* ...............................footer-end............................. */
