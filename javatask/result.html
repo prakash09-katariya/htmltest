@@ -8,7 +8,7 @@
 <body>
     <script>
 
-        var a=40 , b=55 , c=90 ,d=84 ,e=90 
+        var a=35 , b=18 , c=90 ,d=84 ,e=90 
         document.writeln("Student-Dev <br>")
         document.writeln("maths=40 /")
         document.writeln("english=55 /")
@@ -27,14 +27,55 @@
         document.writeln("<br> Persentage= ")
         document.writeln(persentage)
 
-       
+       if(a>20){
+        if(b>20){
+            if(c>20){
+                if(d>20){
+                    if(e>20){
 
-        if(total>300){
-            document.writeln("<br> pass/fail = pass<br>")
+                        document.writeln("<br>pass/fail = pass <br>")
+                    }
+                    else{
+                        document.writeln("<br> pass/fail = fail <br>")
+                    }
+                }
+                else{
+                    if(d>20){
+                        document.writeln("<br>pass/fail = pass <br>")
+                    }
+                    else{
+                        document.writeln("<br> pass/fail = fail <br>")
+                    }
+                }
+            }
+            else{
+                if(c>20){
+                    document.writeln("<br>pass/fail = pass <br>")
+                }
+                else{
+                    document.writeln("<br> pass/fail = fail <br>")
+                }
+            }
         }
         else{
-            document.writeln("<br> pass/fail = fail <br> ")
+            if(b>20){
+                document.writeln("<br>pass/fail = pass <br>")
+            }
+            else{
+                document.writeln("<br> pass/fail = fail <br>")
+            }
+       }
+       }
+       else{
+        if(a>20){
+            document.writeln("<br>pass/fail = pass <br>")
         }
+        else{
+            document.writeln("<br> pass/fail = fail <br>")
+        }
+       }
+
+       
        
       if(persentage>85){
         document.writeln("grade =A <br>")
