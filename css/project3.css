@@ -44,6 +44,7 @@
     display: flex;
     width: 100%;
     align-items: center;
+   
     
 }
 
@@ -62,8 +63,9 @@
 
 .header-section .nav-menu .wrapper .nav-icone .nav-icone-list{
     display: flex;
-    column-gap: 20px;
+    gap: 20px;
     align-items: center;
+    flex-wrap: wrap;
 }
 .header-section .nav-menu .wrapper .nav-icone .nav-icone-list .nav-item .nav-link{
     font-family: "Roboto", serif;
@@ -209,8 +211,9 @@
 }
 .hero-section .main .looking-for .wrapper-row {
     display: flex;
-    column-gap: 10px;
+    gap: 10px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .hero-section .main .looking-for .wrapper-row .item-1{
@@ -454,7 +457,8 @@
 .country-section .wrapper .w-50 .second-row {
     display: flex;
     align-items: center;
-    column-gap: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 .country-section .wrapper .w-50 .second-row .second{
     width: calc(20% - 17px);
@@ -486,7 +490,8 @@
     display: flex;
     justify-content: center;
     padding-bottom:50px;
-    column-gap: 25px;
+    gap: 25px;
+    flex-wrap: wrap;
 }
 .country-section .wrp ul li{
     font-size: 16px;
@@ -495,6 +500,9 @@
     line-height: 30.4px;
     font-family: "Roboto", serif;
     
+}
+.country-section .wrp ul li:hover{
+    border: 1px solid black;
 }
 .country-section .wrp ul li:first-child{
     border: 1px solid #1A1A1A;
@@ -548,8 +556,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    column-gap: 50px;
+    gap: 50px;
     padding:165px 0 ;
+    flex-wrap: wrap;
    
 }
 .work-section .wrapper-row-l .w-50{
@@ -695,6 +704,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 187px 0 76px;
+    flex-wrap: wrap;
     
 }
 .customer-review .w-50 h1:nth-child(2){
@@ -822,6 +832,7 @@
 .main-prop .wrapper{
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
 }
 .main-prop .wrapper .item-1{
     width: 50%;
@@ -989,7 +1000,8 @@
 .country-section-botoom .wrapper .w-50 .second-row {
     display: flex;
     align-items: center;
-    column-gap: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 .country-section-botoom .wrapper .w-50 .second-row .second{
     width: calc(20% - 18px);
@@ -1066,7 +1078,8 @@
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
-    column-gap: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 .popular .list ul li{
     font-size: 12px;
@@ -1151,8 +1164,15 @@
 }
 .footer-section .wrapper{
     display: flex;
-    column-gap: 50px;
+    gap: 50px;
     padding: 95px 0;
+    flex-wrap: wrap;
+}
+.footer-section .wrapper .first-coll{
+    flex-grow: 1;
+}
+.footer-section .wrapper .fo-coll{
+    flex-grow: 1;
 }
 .footer-section .wrapper .first-coll .top-heading{
     color: white;

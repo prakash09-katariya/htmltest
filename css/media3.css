@@ -1,0 +1,321 @@
+@media (max-width:1400px) {
+    .w-1140{
+        width:1140px;
+    }
+}
+
+@media (max-width:1200px) {
+    .w-1140{
+        width:960px;
+    }
+    .header-section .nav-menu .wrapper .navigation-menu {
+        display: none;
+    }
+    .header-section .nav-menu .wrapper .logo {
+        width: 13%;
+    }
+    .popular .list ul li {
+        padding: 0px 10px;
+    }
+}
+
+@media (max-width:992px) {
+    .w-1140{
+        width: 720px;
+    }
+    .header-section .nav-menu .wrapper .logo {
+        width: 15%;
+    }
+    .hero-section .main .looking-for .wrapper-row .item-1 {
+        width: 20%;  
+    }
+    .artical {
+        padding: 100px 0 100px;
+    }
+    .home-for-you .wrapper .item {
+        width: calc(50% - 14px);
+    }
+    .home-for-you {
+        padding: 100px 0;
+    }
+    .country-section {
+        padding: 100px 0;
+    }
+    .country-section .wrapper .w-50 .second-row .second {
+        width: calc(50% - 17px);
+    }
+    .work-section .wrapper-row-l .w-50 {
+        width: 100%;
+    }
+    .work-section .wrapper-row-l .w-30 {
+        width: 100%;
+    }
+    .work-section .wrapper-row-l {
+        padding: 100px 0;
+        flex-wrap: wrap;
+    }
+    .customer-review {
+        padding: 100px 0 76px;
+    }
+    .customer-review .w-50 {
+        width: 100%;
+    }
+    .logo-row .logo-com .wrapper .logo-item {
+        padding-bottom: 100px;
+        width: 10%;
+    }
+    .main-prop .tp {
+        padding-top: 100px;
+        margin-bottom: 10px;
+    }
+    .main-prop {
+        padding-bottom: 100px;
+    }
+    .main-prop .wrapper .item-2 {
+        width: 100%;
+    }
+    .main-prop .wrapper .item-1 {
+        width: 100%;
+    }
+    .country-section-botoom {
+        padding: 100px 0 100px;
+    }
+    .footer-section .wrapper .first-coll{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .footer-section .wrapper {
+        padding: 25px 0;
+        flex-wrap: wrap;
+    }
+    .popular {
+        padding-bottom: 100px;
+    }
+    
+    
+
+    
+} 
+
+@media (max-width:768px) {
+    .w-1140{
+        width: 540px;
+    }
+    .hero-section .main h1 {
+        font-size: 45px;
+        line-height: 56px;
+    }
+    .hero-section .main .looking-for .wrapper-row .item-1 {
+        width: 27%;
+    }
+    .artical .heading-art {
+        font-size: 30px;
+        line-height: 25px;
+    }
+    .artical .cont {
+        font-size: 14px;
+        line-height: 19.3px;
+        margin-bottom: 40.15px;
+    }
+    .artical .wrapper .art-items {
+        width: 100%;
+    }
+    .artical {
+        padding: 50px 0 50px;
+    }
+    .home-for-you {
+        padding: 50px 0;
+    }
+    .home-for-you h1 {
+        font-size: 30px;
+        line-height: 25px;
+    }
+    .home-for-you .content {
+        font-size: 14px;
+        padding-bottom: 30px;
+        line-height: 47.3px;
+    }
+    .home-for-you .wrapper .item {
+        width: 100%;
+    }
+    .home-for-you .wrapper .item .wrapper-row {
+        left: 13%;
+        width: 70%;
+    }
+    .country-section .heading {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .country-section p {
+        font-size: 14px;
+        padding-bottom: 20px;
+        line-height: 24.3px;
+    }
+    .main-prop .wrapper .item-1 .left-2 .part-1 {
+        width: 100%;
+    }
+    .country-section-botoom .wrapper .w-50 .second-row .second {
+        width: calc(50% - 18px);
+    }
+    .country-section-botoom .heading {
+        font-size: 30px;
+        line-height: 46px;
+    }
+    .country-section-botoom p {
+        font-size: 14px;
+        line-height: 25.3px;
+    }
+    .popular .po-head {
+        font-size: 30px;
+        line-height: 41px;
+    }
+    .popular .list ul li {
+        padding: 0px 20px;
+        line-height: 30px;
+    }
+    .popular .list ul {
+        padding-bottom: 10px; 
+    }
+    .country-section-botoom {
+        padding: 50px 0 50px;
+    }
+    .popular {
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width:576px) {
+    .w-1140{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .hero-section .main .looking-for .wrapper-row .item-1 {
+        width: 47%;
+    }
+    .artical .heading-art {
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .country-section .wrapper .w-50 .second-row .second {
+        width: 100%;
+    }
+    .footer-section .footer-row .logo {
+        width: 20%;
+    }
+    .footer-section .footer-row {
+        padding: 20px 0;
+    }
+    .footer-section .wrapper .first-coll .top-heading {
+        padding-bottom: 20px;
+    }
+    .footer-section .wrapper {
+        padding: 20px 0;
+    }
+    .header-section .nav-menu .wrapper .nav-icone .nav-icone-list .nav-item .nav-link {
+        font-size: 14px;
+    }
+    .hero-section .main {
+        padding-top: 110px;
+    }
+    .work-section .wrapper-row-l {
+        padding: 50px 0;
+    }
+    .country-section {
+        padding: 50px 0;
+    }
+    .customer-review {
+        padding: 50px 0 76px;
+    }
+    .main-prop .tp {
+        padding-top: 50px;
+        font-size: 25px;
+        line-height: 27px;
+
+    }
+   
+    .main-prop {
+        padding-bottom: 50px;
+    }
+    .main-prop .ctn-row {
+        font-size: 13px;
+        padding-bottom: 30px;
+        line-height: 25.3px;
+    }
+    .hero-section .main h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .home-for-you .wrapper .item .wrapper-row {
+        left: 2%;
+        width: 90%;
+    }
+    .home-for-you .wrapper .item .wrapper-row h2 {
+        font-size: 14px;
+        line-height: 17.8px;
+        padding-bottom: 5px;
+    }
+    .home-for-you .wrapper .item p {
+        font-size: 12px;
+        line-height: 24.4px;
+    }
+    .home-for-you .wrapper .item .wrapper-row .category h4 {
+        font-size: 17px;
+        line-height: 22.5px;
+    }
+    .home-for-you .round a {
+        font-size: 12px;
+        line-height: 30px;
+        padding: 12px 20px;
+    }
+    .country-section .heading {
+        font-size: 27px;
+        line-height: 35px;
+    }
+    .work-section .wrapper-row-l .w-30 h1 {
+        font-size: 24px;
+        line-height: 40px;
+        padding-bottom: 12px;
+    }
+    .work-section .wrapper-row-l .w-30 p {
+        font-size: 13px;
+        line-height: 24.4px;
+        padding-bottom: 27px;
+    }
+    .work-section .wrapper-row-l .w-30 .item-im h4 {
+        font-size: 19px;
+        line-height: 18.2px;
+        padding-bottom: 11px;
+    }
+    .work-section .wrapper-row-l .w-30 .item-im span {
+        font-size: 12px;
+        line-height: 20.5px;
+    }
+    .customer-review .w-50 h1 {
+        font-size: 25px;
+        line-height: 38px;
+    }
+    .customer-review .w-50 p {
+        font-size: 12px;
+        line-height: 25.4px;
+        padding-bottom: 20px;
+    }
+    .country-section-botoom .wrapper .w-50 .second-row .second {
+        width: 100%;
+    }
+    .popular .po-head {
+        font-size: 26px;
+        line-height: 39px;
+    }
+    .header-section .nav-menu .wrapper {
+        display: none;
+    }
+    .footer-section .footer-row .foo-icone {
+        display: none;
+    }
+    .footer-section .footer-row .logo {
+        width: 31%;
+    }
+    
+    
+}
+

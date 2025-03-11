@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a=10 ,b=90 ,c=70 ,d=80 ,e=9 ,f=70
+
+        // if(a>b && a>c){
+        //     document.writeln("a is max")
+        // }
+        // else if(b>c){
+        //     document.writeln("b is max")
+        // }
+        // else{
+        //     document.writeln("c is max")
+        // }
+
+        if(a>b && a>c && a>d && a>e && a>f){
+           confirm("a is max")
+        }
+        else if(b>c && b>d && b>e && b>f){
+           confirm("b is max")
+        }
+        else{
+            if(c>d && c>e && c>f){
+                document.writeln("c is max")
+            }
+            else{
+                if(d>e && d>f){
+                    document.writeln("d is max")
+                }
+                else{
+                    document.writeln("e is max")
+                }
+            }
+            
+        }
+    </script>
+</body>
+</html>
