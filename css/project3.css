@@ -12,6 +12,31 @@
     width: 1140px;
     margin: 0 auto;
 }
+.h-row{
+    background-color: #1A1A1A;
+    display: block;
+}
+.h-row .wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    
+}
+.h-row .wrap a{
+    color: white;
+    font-size: 20px;
+}
+
+.h-row .wrap .ico{
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 26px;
+}
 
 /* ......................................nav-menu-start.............................. */
 .header-section  {
@@ -835,7 +860,7 @@
     flex-wrap: wrap;
 }
 .main-prop .wrapper .item-1{
-    width: 50%;
+    width: calc(50% - 21px);
 
 }
 .main-prop .wrapper .item-1 .left-1{
@@ -887,8 +912,8 @@
     font-weight: 500;
     font-family: "Roboto", serif;
     position: absolute;
-    top: 34.5px;
-    left: 40px;
+    top: 62.5px;
+    left: 17px;
 }
 .main-prop .wrapper .item-1 .left-2 .part-1 .co p{
     color: white;
@@ -896,8 +921,8 @@
     font-weight: 400;
     font-family: "Roboto", serif;
     position: absolute;
-    top: 86.4px;
-    left: 40px;
+    top: 111px;
+    left: 17px;
 }
 .main-prop  .wrapper .item-1 .left-2 .part-1 .co .se{
     color: white;
@@ -906,11 +931,11 @@
     font-family: "Roboto", serif;
     position: absolute;
     top: 140.94px;
-    left: 40px;
+    left: 17px;
     text-align: left;
 }
 .main-prop .wrapper .item-2{
-    width: 50%;
+    width: calc(50% - 21px);
     height: 700px;
     background-color: beige;
     position: relative;
@@ -1004,7 +1029,7 @@
     flex-wrap: wrap;
 }
 .country-section-botoom .wrapper .w-50 .second-row .second{
-    width: calc(20% - 18px);
+    width: calc(20% - 15px);
     flex-grow: 1;
     overflow: hidden;
     border: 0.5px solid rgba(216, 59, 59, 0.5);
@@ -1041,7 +1066,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(29, 23, 37, 0.5);
     z-index: -1;
     visibility: hidden;
 }

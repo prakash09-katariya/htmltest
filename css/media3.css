@@ -2,6 +2,9 @@
     .w-1140{
         width:1140px;
     }
+    .h-row{
+        display: none;
+    }
 }
 
 @media (max-width:1200px) {
@@ -16,6 +19,9 @@
     }
     .popular .list ul li {
         padding: 0px 10px;
+    }
+    .h-row{
+        display: none;
     }
 }
 
@@ -91,7 +97,9 @@
     .popular {
         padding-bottom: 100px;
     }
-    
+    .h-row{
+        display: none;
+    }
     
 
     
@@ -182,6 +190,9 @@
     .popular {
         padding-bottom: 50px;
     }
+    .h-row{
+        display: none;
+    }
 }
 
 @media (max-width:576px) {
@@ -191,6 +202,14 @@
     }
     .hero-section .main .looking-for .wrapper-row .item-1 {
         width: 47%;
+    }
+
+    .hero-section {
+        padding: 43px 0 35px;
+    }
+
+    .hero-section .main .looking-for .he-look {
+        padding-top: 20px;
     }
     .artical .heading-art {
         font-size: 25px;
@@ -203,7 +222,7 @@
         width: 20%;
     }
     .footer-section .footer-row {
-        padding: 20px 0;
+        padding: 10px 0;
     }
     .footer-section .wrapper .first-coll .top-heading {
         padding-bottom: 20px;
@@ -215,7 +234,7 @@
         font-size: 14px;
     }
     .hero-section .main {
-        padding-top: 110px;
+        padding-top: 0;
     }
     .work-section .wrapper-row-l {
         padding: 50px 0;
@@ -314,6 +333,28 @@
     }
     .footer-section .footer-row .logo {
         width: 31%;
+    }
+    .main-prop .wrapper .item-2 .content h1 {
+        font-size: 22px;
+        padding-bottom: 8.19px;
+    }
+    .main-prop .wrapper .item-2 .content p {
+        font-size: 14px;
+    }
+    .footer-section .wrapper {
+        gap: 10px;
+    }
+    .footer-section .wrapper .fo-coll h1 {
+        padding-bottom: 5px;
+    }
+    .footer-section .wrapper .fo-coll ul li {
+        padding: 5px 0;
+    }
+    .footer-section .wrapper .first-coll .co-tex-row {
+        padding-top: 10px;
+    }
+    .h-row{
+        display: block;
     }
     
     

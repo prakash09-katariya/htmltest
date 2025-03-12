@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a=30 ,b=40 , c=48 , d= 40 ,e=45
+        document.write("student-name=Dev <br>")
+        document.writeln("<br> Maths=", a )
+        document.writeln("/ Gujrati=",b)
+        document.writeln("/ Socieal science=", c)
+        document.writeln("/ English=", d)
+        document.writeln("/ Science= ", e)
+        
+        // .........................total......................
+     
+        total=(a+b+c+d+e)
+        document.write("<br>Total=", total)
+
+        // .........................total......................
+
+        // .........................maximum.............................
+
+        if(a>b && a>c && a>d && a>e){
+            document.write("<br>  Max value = A ")
+        }
+        else if(b>c && b>d && b>e){
+            document.write(" <br> Max value = B ")
+        }
+        else{
+            if(c>d && c>e){
+                document.write(" <br>Max value = C ")
+            }
+            else{
+                if(d>e){
+                    document.write("<br> Max value = D")
+                }
+                else{
+                    document.write("<br>Max value = E ")
+                }
+            }
+        }
+
+        // .........................maximum.............................
+
+        // ..............................minimum.........................
+
+        if(a<b && a<c && a<d && a<e){
+            document.write("<br> Min value = A ")
+        }
+        else if(b<c && b<d && b<e){
+            document.write(" <br> Min value = B  ")
+        }
+        else{
+            if(c<d && c<e){
+                document.write(" <br>Min value = C ")
+            }
+            else{
+                if(d<e){
+                    document.write("<br> Min value = D  ")
+                }
+                else{
+                    document.write("<br>Min value = E  ")
+                }
+            }
+        }
+        // ..............................minimum.........................
+
+        // ...................pass/fail.........................................
+
+
+        if(a>18 && b>18 && c>18 && d>18 && e>18){
+            document.write("<br>Pass/Fail=Pass")
+        }
+        else if(a>=18 && b>=18 && c>=18 && d>=18  && e>=18){
+            document.write("<br>Pass/Fail=Pass")
+        }
+        else{
+            document.write("Pass/Fail=fail")
+        }
+
+        // ...................Pass/fail.........................................
+
+        // .......................persentage...................................
+
+        persentage=(total/250)*100
+
+        document.write("<br> Persentage =" ,persentage)
+
+        // .......................persentage...................................
+
+        // ............................Grade.................................
+
+        if(persentage>80){
+            document.write("<br>Grade=A")
+        }
+        else(
+            document.write("<br> Grade=B")
+        )
+
+        // ............................Grade.................................
+        
+    </script>
+</body>
+</html>
