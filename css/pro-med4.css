@@ -18,11 +18,101 @@
         width: 720px;
 
     }
+    .header-section .nav-menu .wrapper .navigation-menu .nav-list {
+        display: none;
+    }
+    .header-section .nav-menu .wrapper .logo {
+        width: 15%;
+    }
+    .hero-section .main h1 {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 50px;
+        line-height: 63px;
+    }
+    .hero-section .main .input-row .w-80 .wrp-input ul li {
+        padding: 7px 13px;
+    }
+    .country-section {
+        padding: 100px 0;
+    }
+    .cust-fovour h1 {
+        font-size: 34px;
+        line-height: 48px;
+    }
+    .cust-fovour p {
+        font-size: 17px;
+        padding-bottom: 25px;
+        line-height: 32.3px;
+    }
+    .cust-fovour .wrapper-cst .item {
+        width: calc(50% - 23px);
+    }
+    .cust-fovour .wrapper-cst {
+        padding-bottom: 100px;
+    }
+    .home-for-you {
+        padding: 100px 0;
+    }
+    .home-for-you .wrapper .item {
+        width: calc(50% - 21px);
+    }
+    .city-section .wrapper .w-50 .second-row .second {
+        width: calc(33% - 17px);
+    }
+    .city-section {
+        padding: 100px 0;
+    }
+    .villege-for-you {
+        padding: 100px 0;
+    }
+    .villege-for-you .wrapper .item {
+        width: calc(50% - 16px);    
+    }
+    .work-section {
+        padding: 100px 0;
+    }
+    .work-section h1 {
+        font-size: 28px;
+        line-height: 28px;
+        padding-bottom: 11px;
+    }
+    .bg {
+        padding: 100px 0;
+    }
+    .l-right {
+        padding-top: 100px;
+        column-gap: 30px;
+    }
+    .logo-row {
+        padding: 100px 0 100px;
+        max-width: 100%;
+       
+    }
+    .country-section .wrapper .w-50 .second-row .second {
+        width: calc(33% - 17px);
+    }
+   
 } 
 
 @media (max-width:768px) {
     .w-1140{
         width: 576px;
+    }
+    .country-section .wrapper .w-50 .second-row .second {
+        width: calc(50% - 17px);
+    }
+    .l-right .w-50 {
+        width: 100%;
+    }
+    .l-right .w-40 {
+        width: 100%;
+    }
+    .hero-section .main .input-row .w-80 .in-tex .tex {
+        width: 100%;
+    }
+    .hero-section .main .input-row .w-80 .in-tex {
+        width: calc(50% - 7px);
     }
 }
 
@@ -31,4 +121,137 @@
         width: 100%;
         padding: 0 15px;
     }
+    .hero-section {
+        padding: 16px 0 20px;
+    }
+    .logo-row {
+        padding: 50px 0 50px;
+    }
+    .country-section .wrapper .w-50 .second-row .second {
+        width: 100%;
+    }
+    .cust-fovour h1 {
+        font-size: 17px;
+        line-height: 33px;
+    }
+    .cust-fovour .wrapper-cst .item {
+        width: 100%;
+    }
+    .home-for-you h1 {
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .home-for-you .wrapper .item {
+        width: 100%;
+    }
+    .city-section .heading {
+        font-size: 22px;
+        line-height: 31px;
+    }
+    .city-section .wrapper .w-50 .second-row .second {
+        width: calc(50% - 17px);
+    }
+    .villege-for-you .wrapper .item {
+        width: 100%;
+    }
+    .villege-for-you h1 {
+        font-size: 22px;
+        line-height: 29px;
+    }
+    .work-section .wrapper-row-l .w-30 {
+        width: 100%;
+    }
+    .work-section .wrapper-row-l .w-50 {
+        width: 100%;
+        overflow: hidden;
+    }
+    .bg .row-detail h1 {
+        font-size: 29px;
+        line-height: 49px;
+        padding-bottom: 10px;
+    }
+    .bg .w-1140 .row-detail p {
+        font-size: 14px;
+    }
+    .hero-section .main .input-row .w-80 {
+        display: none;
+    }
+    .hero-section .main h1 {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 27px;
+        line-height: 44px;
+    }
+    .country-section .heading {
+        font-size: 23px;
+        line-height: 28px;
+    }
+    .country-section {
+        padding: 50px 0;
+    }
+    .work-section .wrapper-row-l .w-30 .item-im span {
+        font-size: 12px;
+        line-height: 21.5px;
+    }
+    .work-section .wrapper-row-l .w-30 .item-im h4 {
+        font-size: 21px;
+        line-height: 25.2px;
+    }
+    .header-section {
+        display: none;
+    }
+    .hero-section .main {
+        padding-top: 24px;
+    }
+    .home-for-you {
+        padding: 25px 0;
+    }
+    .cust-fovour .wrapper-cst {
+        padding-bottom: 25px;
+    }
+    .city-section {
+        padding: 50px 0;
+    }
+    .villege-for-you {
+        padding: 50px 0;
+    }
+    .work-section {
+        padding: 50px 0;
+    }
+    .l-right {
+        padding-top: 50px;
+        gap: 37px;
+    }
+    .footer-section h2 {
+        font-size: 28px;
+        line-height: 20px;
+        padding: 20px 0;
+    }
+    .footer-section {
+        padding-TOP: 50px;
+    }
+    .footer-section p {
+        padding-bottom: 19px;
+    }
+    .footer-section .in-tex .tex {
+        
+        padding: 10px 0;
+        padding-left: 31px;
+    }
+    .footer-section .wrapper h1 {
+        width: 20%;
+    }
+    .footer-section .in-tex span {
+        top: 13%;
+        right: 40px;
+    }
+    .l-right .w-40 a {
+        font-size: 12px;
+        padding: 11px 11px;
+    }
+    .l-right .w-40 .wrapper-r .item-r {
+        flex-grow: 1;
+        width: 100%;
+    }
+     
 }
