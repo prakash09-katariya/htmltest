@@ -7,7 +7,7 @@
 
 @media (max-width:1200px) {
     .w-1140{
-        width: 992px;
+        width: 960px;
         margin: 0 auto;
     }
     .hero-section .wrapper-hero .wr-right .heading {
@@ -24,6 +24,10 @@
     .shop-look .shop-heading::before {
         top: 70px;
         left: 27%;
+    }
+    .pro-list .pro-wrapper-row .main-wrapper .items {
+        width: calc(50% - 15px);
+
     }
 }
 

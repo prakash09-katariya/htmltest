@@ -16,7 +16,7 @@
 /* ......................................nav-menu-start.............................. */
 .header-section  {
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     top: 5%;
     width: 100%;
 }
@@ -26,7 +26,9 @@
     justify-content: space-between;
     padding: 14px 0;
     border-bottom:1px solid rgba(0, 0, 0, 0.5);
+   
 }
+
 
 
 .header-section .nav-menu .wrapper .logo{
@@ -131,6 +133,7 @@
   
 }
 
+
 .hero-section h3{
     color: rgb(0, 0, 0);
     font-size: 13px;
@@ -142,9 +145,11 @@
     border-radius: 40px;
     padding: 10px 15px;
     margin-top: 43px;
+   
 }
 .hero-section .main{
     padding-top:155px;
+   
 }
 .hero-section .main h1{
     margin-top: 20px;
@@ -153,7 +158,7 @@
     font-weight: 500;
     font-family: "Roboto", serif;
     color: #1F4B43;
-    line-height: 78px
+    line-height: 78px;
 }
 .hero-section .main p{
     font-size: 17px;
