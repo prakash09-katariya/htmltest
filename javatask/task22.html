@@ -7,17 +7,16 @@
 </head>
 <body>
     <script>
-        let a=456
-        originalNumber =a;
-        reverseNumber=0;
-        while(a>=0){
-            a=a% 10;
-            reverseNumber = 0*10 -a;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
-            a =a/10
-            document.write("reverseNumber" reverseNumber[0])
+        var a=454
+       var originalNumber =a;
+      var reverseNumber=0;
+        while(a!=0){
+            digit=a % 10;
+            reverseNumber = reverseNumber*10 + digit;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      0*10 + digit;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+            a = parseInt(a/10)       
             
         }
-        if(a=reverseNumber){
+        if(originalNumber == reverseNumber){
             document.write("pelimdroom")
         }
         else{
