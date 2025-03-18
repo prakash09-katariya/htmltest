@@ -1,35 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pelindron-number</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pelimdron-number</title>
 </head>
 <body>
-    <script>
-      function isPalindrome(number) {
-  let originalNumber = number;
-  let reversedNumber = 0;
-  
-  // Reverse the number
-  while (number > 0) {
-    let lastDigit = number % 10; // Get the last digit
-    reversedNumber = reversedNumber * 10 + lastDigit; // Append the last digit
-    number = Math.floor(number / 10); // Remove the last digit from the number
-  }
-  
-  // Check if the reversed number is equal to the original number
-  return originalNumber === reversedNumber;
-}
+  <script>
+    var a=124
+    var orginalNumber = a;
+    var reverseNumber =0;
 
-// Example usage
-let num = 121;
-if (isPalindrome(num)) {
-  console.log(num + " is a palindrome.");
-} else {
-  console.log(num + " is not a palindrome.");
-}
+    while(a!=0){
+      digit = a % 10;
+      reverseNumber = reverseNumber*10 +digit;
+      a=parseInt(a/10)
+      
+    }
 
-    </script>
+    if(orginalNumber == reverseNumber){
+      document.write("pelimdroom")
+    }
+    else{
+      document.write("notpelimdroom")
+    }
+  </script>
 </body>
-</html> 
+</html>

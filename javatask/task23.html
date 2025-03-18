@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pelimdroom-name</title>
+</head>
+<body>
+    <script>
+
+        let str = "madpamhs"; 
+        let reversedStr = ""; 
+        console.log("str.length",str.length)
+        let i = str.length - 1;
+
+        while (i >= 0) {  
+            reversedStr + = str[i]; // Add each letter in reverse order
+            i--; // Move to the previous letter
+            console.log(str[i])
+        }
+        if (reversedStr == str){
+            console.log("pelidrom",reversedStr);
+        }else{
+            console.log("not pelidrom",reversedStr);
+        }
+    </script>
+</body>
+</html>
