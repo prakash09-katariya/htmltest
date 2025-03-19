@@ -3,12 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>spy-number</title>
 </head>
 <body>
     <script>
-        var a=1234
-        sum=
+        var a=123
+        let sum=0;
+        let multiply=1;
+        while(a>0){
+            digit =a % 10;
+            sum= sum + digit
+            multiply = (multiply * digit)
+            a=parseInt(a/10)
+           
+        }
+        if (sum == multiply){
+            document.write("spy")
+        }
+        else{
+            document.write("not spy")
+        }
+        
+
+
     </script>
 </body>
 </html>
