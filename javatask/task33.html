@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a=123;
+        var b=a;
+        let sum=0;
+
+        do{
+            digit = a % 10;
+            sum = sum + digit*digit*digit;
+            a= parseInt(a/10);
+            
+        }
+        while(a>0)
+        console.log(sum)
+      
+    </script>
+</body>
+</html>
