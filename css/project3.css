@@ -41,8 +41,9 @@
 /* ......................................nav-menu-start.............................. */
 .header-section  {
     position: absolute;
+    position: sticky;
     z-index: 1;
-    top: 5%;
+    top: 2%;
     width: 100%;
 }
 .header-section .nav-menu .wrapper {
@@ -133,6 +134,7 @@
    background-image: url(../img/pro-1/pro-3.jpg);
    width: 100%;
    background-size: cover;
+   background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;
    text-align: center;

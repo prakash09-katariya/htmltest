@@ -125,6 +125,7 @@
    background-image: url(../img/pro-1/bg-4.jpg);
    width: 100%;
    background-size: cover;
+   background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;
    text-align: center;
@@ -243,14 +244,20 @@
     font-family: "Roboto", serif;
     padding: 7px 30px;
     background-color: #F6F8FA;
+    color: white;
     border: 0.5px solid black;
     border-radius: 50px;
     flex-grow: 1;
 }
-.hero-section .main .input-row .w-80 .wrp-input ul li:last-child{
-    background-color: #254EF0;
+
+.hero-section .main .input-row .w-80 .wrp-input ul li:hover{
+    background-color: #03045e;
     color: white;
 }
+/* .hero-section .main .input-row .w-80 .wrp-input ul li:last-child{
+    background-color: #254EF0;
+    color: white;
+} */
 
 
 

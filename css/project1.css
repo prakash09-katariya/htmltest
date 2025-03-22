@@ -26,10 +26,13 @@
 
 /* ......................................nav-menu-start.............................. */
 .header-section  {
-    position: absolute;
     z-index: 1;
     top: 0;
     width: 100%;
+    position: sticky;
+}
+.header-section{
+    background-color: #1F4B43;
 }
 .header-section .nav-menu .wrapper {
     display: flex;
@@ -113,6 +116,7 @@
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
+   background-attachment: fixed;
    text-align: center;
    padding: 43px 0 220px;
    position: relative;
@@ -130,6 +134,11 @@
     border-radius: 40px;
     padding: 10px 15px;
     margin-top: 43px;
+}
+
+.hero-section h3:hover{
+    background-color: #090a3d;
+    box-shadow: 0 0 10px black;
 }
 .hero-section .main{
     padding-top:155px;
@@ -989,7 +998,7 @@
 .home-section .wrapper .item-home{
     width: calc(25% - 23px);
     background-color: #ffffff;
-    box-shadow: 0 0  7px black;
+    box-shadow: 0 0  1px black;
     border: 0;
     overflow: hidden;
     flex-grow: 1;
