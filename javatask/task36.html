@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+   
+    <script>
+        //  <!-- armstrong-number -->
+        var a=153;
+        y=a;
+        sum = 0;
+
+        while(a>0){
+            digit =a % 10;
+            sum = sum + digit**3;
+            a=parseInt(a/10);
+            console.log(sum);
+        }
+
+        // <!-- armstrong-number -->
+
+        // pelimdroom-number
+        
+        var a=121;
+        orignalNumber =a;
+        rev =0;
+
+        while(a!=0){
+            digit =a % 10 ;
+            rev = rev *10 +digit;
+            a= parseInt (a/10);
+        }
+        document.write(digit)
+
+        if (orignalNumber == rev){
+            document.write("palindrome")
+        }
+        else{
+            document.write("not palindrome")
+        }
+        // pelimdroom-number
+
+        
+    </script>
+</body>
+</html>
